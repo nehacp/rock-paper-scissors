@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors!</title>
+	<link rel="stylesheet" type="text/css" href="rockpaperscissor.css" />
+</head>
+<body>
+	<h1>Rock - Paper - Scissors!</h1>
+	
+	<p> Computer </p>
+	<div id="computer"></div>
+	<div id="computerScore" class="textFormat">Score</div>
+	<div id="currentTurn"></div>
+	<p id="userName"> User </p>
+	<div id="user"> </div>
+	<div id="userScore" class="textFormat">Score</div>
+
+	<input type="image" src="images/rock.png" id="rock" onclick="controller.gamePlay('rock')">
+	<input type="image" src="images/paper.png" id="paper" onclick="controller.gamePlay('paper')">
+	<input type="image" src="images/scissors.png" id="scissor" onclick="controller.gamePlay('scissor')">
+	<p> Please select a gesture to start the game. <br>Its a race to 10 points!</p>
+<script src="rockpaperscissor.js"></script>
+</body>
+</html>

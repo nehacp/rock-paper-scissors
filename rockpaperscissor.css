@@ -1,0 +1,77 @@
+body {
+	background-color: rgb(51, 153, 255);
+	text-align: center;
+}
+
+h1 {
+	color: black;
+	margin: auto;
+	text-align: center;
+	font-family: Helvetica;
+	padding-top: 20px;
+	font-size: 40px;
+}
+
+input {
+	text-align: center;
+	bottom: 0px;
+}
+
+p {
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#computer {
+	border-style: dotted;
+	border-color: black;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+
+#user {
+	
+	border-style: dotted;
+	border-color: black;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+
+#currentTurn {
+	font-family: Helvetica;
+	width:	500px;
+	height: 20px;
+	font-size: 28px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	color: rgb(128, 0, 0);
+}
+.textFormat {
+	font-family: Helvetica;
+	width:	175px;
+	height: 20px;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+.rock {
+	background: url("images/rock.png") no-repeat center center; 
+}
+
+.paper {
+	background: url("images/paper.png") no-repeat center center;
+}
+
+.scissor {
+	background: url("images/scissors.png") no-repeat center center;
+}
